@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Horas Médicas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Centro Médico SaludPlus</h1>
+        <p>Sistema demostrativo de reserva de horas médicas</p>
+    </header>
+
+    <main>
+        <section class="tarjeta">
+            <h2>Reserva tu hora médica</h2>
+            <p>Completa el formulario para simular una reserva.</p>
+
+            <form id="formulario">
+                <label for="nombre">Nombre del paciente</label>
+                <input type="text" id="nombre"
+                       placeholder="Ingrese su nombre"
+                       required>
+
+                <label for="especialidad">Especialidad médica</label>
+                <select id="especialidad" required>
+                    <option value="">Seleccione una especialidad</option>
+                    <option>Medicina General</option>
+                    <option>Pediatría</option>
+                    <option>Cardiología</option>
+                    <option>Dermatología</option>
+                </select>
+
+                <label for="fecha">Fecha de atención</label>
+                <input type="date" id="fecha" required>
+
+                <label for="hora">Hora de atención</label>
+                <select id="hora" required>
+                    <option value="">Seleccione un horario</option>
+                    <option>09:00</option>
+                    <option>10:00</option>
+                    <option>11:00</option>
+                    <option>15:00</option>
+                    <option>16:00</option>
+                </select>
+
+                <button type="button">
+                    Reserva demostrativa
+                </button>
+            </form>
+
+            <p class="aviso">
+                Este formulario es una demostración académica.
+                No registra ni envía información personal.
+            </p>
+        </section>
+
+        <section class="tarjeta">
+            <h2>Información de atención</h2>
+            <p><strong>Horario:</strong> Lunes a viernes, de 09:00 a 17:00.</p>
+            <p><strong>Modalidad:</strong> Atención presencial simulada.</p>
+
+            <h3>Estado del servicio</h3>
+            <div class="estado">
+                <span class="indicador"></span>
+                Servicio disponible (demostración)
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto académico DevOps - IACC 2026</p>
+    </footer>
+
+</body>
+</html>
