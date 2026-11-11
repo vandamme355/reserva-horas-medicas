@@ -34,7 +34,6 @@ La aplicación es demostrativa. No procesa reservas reales ni almacena informaci
 7. Desplegar y verificar el servicio local.
 8. Revisar registros y métricas del contenedor.
 
-
 ## Versión 1.0.0
 
 Primera versión estable del proyecto académico
@@ -61,3 +60,49 @@ del servidor Nginx.
 La aplicación es demostrativa y no procesa
 ni almacena reservas reales.
 
+
+## Estructura del repositorio
+
+- src/index.html: estructura de la aplicación.
+- src/styles.css: presentación visual.
+- Dockerfile: construcción de la imagen Docker.
+- docker-compose.yml: configuración del servicio.
+- .gitignore: exclusión de archivos sensibles.
+- .env.example: ejemplo de configuración.
+- README.md: documentación del proyecto.
+
+## Ejecución local
+
+Requisitos:
+- Docker Desktop
+- Docker Compose
+
+Construir e iniciar:
+
+docker compose up --build -d
+
+Verificar:
+
+docker compose ps
+
+Acceder desde el navegador:
+
+http://localhost:8080
+
+## Seguridad
+
+El proyecto es demostrativo y no procesa
+reservas médicas reales.
+
+No se deben publicar contraseñas, tokens,
+claves privadas ni datos personales.
+
+El archivo .gitignore excluye archivos
+locales de entorno.
+
+El archivo .env.example contiene únicamente
+valores de configuración de ejemplo.
+
+Antes de publicar cambios, se debe revisar
+que el repositorio no incluya información
+sensible.
