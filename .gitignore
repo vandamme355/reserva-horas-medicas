@@ -1,0 +1,16 @@
+
+# Variables y archivos de entorno
+.env
+.env.*
+!.env.example
+
+# Archivos locales del editor
+.vscode/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db

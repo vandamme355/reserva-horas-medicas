@@ -6,5 +6,5 @@ services:
     image: reserva-horas-medicas:1.0
     container_name: reserva-horas-medicas
     ports:
-      - "8080:80"
+      - "${APP_PORT:-8080}:80"
     restart: unless-stopped
