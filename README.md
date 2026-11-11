@@ -35,3 +35,29 @@ La aplicación es demostrativa. No procesa reservas reales ni almacena informaci
 8. Revisar registros y métricas del contenedor.
 
 
+## Versión 1.0.0
+
+Primera versión estable del proyecto académico
+de reserva de horas médicas.
+
+### Funcionalidades
+- Formulario demostrativo de reserva médica.
+- Selección de especialidad, fecha y horario.
+- Información general de atención.
+- Indicador visual de disponibilidad.
+- Diseño adaptable mediante CSS3.
+
+### Infraestructura
+- Servidor web Nginx.
+- Imagen Docker basada en nginx:alpine.
+- Despliegue local mediante Docker Compose.
+- Servicio disponible en http://localhost:8080.
+
+### Validación
+Se verificó la presentación de la aplicación
+en el navegador y la respuesta HTTP 200 OK
+del servidor Nginx.
+
+La aplicación es demostrativa y no procesa
+ni almacena reservas reales.
+
